@@ -8,6 +8,9 @@ import UseStateCounter from "./tutorial/1-useState/mysolve/5-useState-counter";
 import UseEffectBasics from "./tutorial/2-useEffect/mysolve/1-useEffect-basics";
 import UseEffectCleanup from "./tutorial/2-useEffect/mysolve/2-useEffect-cleanup";
 import UseEffectFetchData from "./tutorial/2-useEffect/mysolve/3-useEffect-fetch-data";
+import MultipleReturns from "./tutorial/3-conditional-rendering/mysolution/1-multiple-returns";
+import ShortCircuit from "./tutorial/3-conditional-rendering/mysolution/2-short-circuit";
+import ShowHide from "./tutorial/3-conditional-rendering/mysolution/3-show-hide";
 function App() {
   return (
     <div className="container">
@@ -31,6 +34,15 @@ function App() {
           <UseEffectBasics />
           <UseEffectCleanup />
           <UseEffectFetchData />
+        </RenderTutorial>
+      </div>
+      <div style={{ marginBottom: "4rem" }}>
+        <h1>Conditional Rendering</h1>
+        <hr />
+        <RenderTutorial>
+          <MultipleReturns />
+          <ShortCircuit />
+          <ShowHide />
         </RenderTutorial>
       </div>
     </div>
