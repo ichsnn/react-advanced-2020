@@ -3,9 +3,9 @@ import React from 'react';
 const RenderTutorial = (props) => {
     return (
         <div>
-            {props.children.map((child) => {
+            {props.children.map((child, index) => {
                 return (
-                    <div>
+                    <div key={index}>
                         {child}
                         <br />
                         <br />
