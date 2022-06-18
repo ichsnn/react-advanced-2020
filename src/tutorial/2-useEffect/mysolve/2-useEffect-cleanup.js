@@ -7,7 +7,7 @@ const UseEffectCleanup = () => {
   const [size, setSize] = useState(window.innerWidth);
 
   const checkSize = () => {
-    setSize(window.innerHeight);
+    setSize(window.innerWidth);
   };
 
   useEffect(() => {
