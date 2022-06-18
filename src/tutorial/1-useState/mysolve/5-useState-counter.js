@@ -4,7 +4,7 @@ const UseStateCounter = () => {
   const [value, setValue] = useState(0);
 
   const reset = () => {
-    setValue = 0;
+    setValue(0)
   }
 
   const complexIncrease = () => {
